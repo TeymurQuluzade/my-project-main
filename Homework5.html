@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Qeydiyyat Formu</h1>
+    <form>
+        <label for="Ad">Adınızı daxil edin:</label><br>
+        <input type="text" placeholder="Ad"><br>
+        <input type="text" id="Ad" name="Ad"><br>
+
+        <div>
+        <label for="email">Email daxil edin:</label><br>
+        <input type="email" placeholder="Email"><br>
+        <input type="email" name="email" id="email" ><br>
+        </div>
+
+        <label for="password">Parol daxil edin:</label><br>
+        <input type="password" placeholder="Password"><br>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="number">Yaşınızı daxil edin:</label><br>
+        <input type="number" name="number" id="number"><br>
+        <input type="number" placeholder="Yaşınız"><br>
+
+        <label for="date">Doğum tarixini daxil edin:</label><br>
+        <input type="date" name="date" id="date"><br>
+        <input type="date" placeholder="Doğum tarixi"><br>
+        <label for="textarea">Haqqımda:</label><br>
+        <textarea name="textarea" id="textarea"></textarea><br>
+        <label for="select">Doğulduğunuz şəhəri daxil edin:</label><br>
+        <select name="dropdown" id="dropdown">
+            <option value="1">Bakı</option>
+            <option value="2">Sumqayıt</option>
+            <option value="3">Gəncə</option>
+        </select><br>
+        <label for="radio">Cinsinizi seçin:</label><br>
+        <input type="radio" name="gender" id="male">
+        <label for="male">Kişi</label><br>
+        <input type="radio" name="gender" id="female">
+        <label for="female">Qadın</label><br>
+
+        <label for="checkbox">Sevdiyiniz hobbi:</label><br>
+        <input type="checkbox" name="hobby" id="hobby1">
+        <label for="hobby1">Kitab oxumaq</label><br>
+        <input type="checkbox" name="hobby" id="hobby2">
+        <label for="hobby2">Səyahət etmək</label><br>
+        <input type="checkbox" name="hobby" id="hobby3">
+        <label for="hobby3">Futbol oynamaq</label><br>
+        <input type="submit" value="Göndər">
+        <input type="reset" value="Təmizlə"><br>
+        <button type="submit">Göndər</button>
+        <button type="reset">Təmizlə</button>
+    </form>
+</body>
+</html>
