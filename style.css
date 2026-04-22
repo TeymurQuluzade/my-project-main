@@ -1,12 +1,12 @@
-ul {
-    color: powderblue;
+h1{
+    color: blue;
 }
-p{
+ul{
     color: green;
 }
 .info{
-    color: black
+    color: black;
 }
 #main-title{
-    color: fuchsia
+    color: skyblue;
 }
