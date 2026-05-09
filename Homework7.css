@@ -1,0 +1,22 @@
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #f6dcbc;
+}
+
+body {
+    background-color: hsl(0, 0%, 24%);
+}
+
+li {
+    color: rgb(242, 218, 187);
+    font-family: "Roboto", sans-serif;
+    
+}
+
+#button {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #ff5050;
+}
