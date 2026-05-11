@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.MainDiv{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    position: relative;
+    margin: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 30px;
+}
+.image{
+    width: 200px;
+    height: 200px;
+    margin-left: 70px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+}
+.ad{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px;
+}
+.info{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+}
+.SmallRed{
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.OrangeBox{
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 158px;
+    bottom: 40px;
+}
+.GreenButton{
+    background-color: rgb(59, 194, 59);
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 80px;
+    height: 50px;
+}
+.ButtonInfo{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+}
