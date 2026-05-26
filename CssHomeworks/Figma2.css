@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #FFF5F0;
+}
+.Header{
+    display: flex;
+    border: 2px solid black;
+    background-color: #FFDECC;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-top: 14px;
+    gap: 14px;
+    margin-bottom: 14px;
+}
+.Headertxt{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.nav{
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+.navsol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 2px solid black;
+    padding: 10px 24px;
+    background-color: #FFAE80;
+    border-radius: 12px 0px 0px 12px;
+    gap: 10px;
+}
+.Links{
+    display: flex;
+}
+.NavHome{
+    border-left: 2px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 19px 24px;
+}
+.NavAbout{
+    border: 1px solid black;
+    padding: 19px 34px;
+}
+.NavAcademics{
+    border: 1px solid black;
+    padding: 19px 34px;
+    background-attachment: fixed;
+    background-color: #FFDECC;
+}
+.NavAdmissions{
+    border: 1px solid black;
+    padding: 19px 34px;
+}
+.NavStudentLife{
+    border: 1px solid black;
+    padding: 19px 34px;
+}
+.NavContact{
+    border: 1px solid black;
+    border-radius: 0px 12px 12px 0px;
+    padding: 19px 34px;
+    background-color: #FFAE80;
+}
+.SeDiv{
+    display: flex;
+    border: 2px solid black;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    margin-top: 60px;
+    height: 485px;
+    box-shadow: black 8px 8px 0px;
+}
+.SeDivInfo{
+    margin: 150px 0px;
+    width: 765px;
+    height: 185px;
+    gap: 14px;
+}
+.SeDivBut{
+    width: 128px;
+    height: 47px;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    gap: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 150%;
+}
+.SeDivBut:hover{
+    background-color: #FF8D4D;
+}
+.SeDivHeading{
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 130%;
+    height: 124px;
+    width: 600px;
+}
+.SeDivText{
+    width: 765px;
+    height: 180px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    margin: 80px 80px 155px 50px;
+}
+.Features{
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    width: 1300px;
+    margin-top: 200px;
+    gap: 100px;
+}
+.SpecialFeatures{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    height: 220px;
+    width: 1000px;
+    gap: 19px;
+}
+.FeatureBut{
+    width: 146px;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+}
+.FeatureButText{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 106px;
+    height: 27px;
+}
+.FeatureBut:hover{
+    background-color: #FF8D4D;
+}
+.FeatureHead{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.FeatureText{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 992px;
+    height: 60px;
+    text-align: center;
+}
+.ButunCards{
+    height: 762px;
+    width: 1300px;
+}
+.FirstLineCards{
+    display: flex;
+    height: 301px;
+    gap: 60px;
+}
+.Card1{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+.Card2{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+
+.Card3{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+.card1head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card1txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card2head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card2txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card3head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card3txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.SecondLineCards{
+    display: flex;
+    height: 301px;
+    gap: 60px;
+}
+.Card4{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.Card5{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.Card6{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.card4head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card4txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card5head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card5txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card6head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card6txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.Learn{
+    display: flex;
+    justify-content: center;
+    height: 320px;
+    width: 1300px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.WhatLearn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;;
+    height: 220px;
+    width: 1000px;
+    gap: 19px;
+}
+.LearnHead{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.LearnText{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 992px;
+    height: 60px;
+    text-align: center;
+}
+.LearnBut{
+    width: 146px;
+    height: 47px;
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+}
+.LearnButText{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    width: 106px;
+    height: 27px;
+}
+.LearnBut:hover{
+    background-color: #FF8D4D;
+}
+.LearnHead{
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 100%;
+}
+.Butun_Cards{
+    height: 762px;
+    width: 1300px;
+}
+.FirstLine_Cards{
+    display: flex;
+    height: 301px;
+    gap: 60px;
+}
+.Card_1{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+.Card_2{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+
+.Card_3{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+}
+.card_1head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_1txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card_2head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_2txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card_3head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_3txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.SecondLine_Cards{
+    display: flex;
+    height: 301px;
+    gap: 60px;
+}
+.Card_4{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.Card_5{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.Card_6{
+    box-shadow: black 4px 4px 0px;
+    width: 393px;
+    border: 2px solid black;
+    background-color: #FFFFFF;
+    margin-top: 30px;
+}
+.card_4head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_4txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card_5head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_5txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
+.card_6head{
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 130%;
+    padding: 50px 50px;
+}
+.card_6txt{
+    padding: 5px 50px;
+    font: 20px;
+    font-weight: 500;
+}
