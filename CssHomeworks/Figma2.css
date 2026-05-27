@@ -352,19 +352,23 @@ body{
 }
 .FirstLine_Cards{
     display: flex;
-    height: 301px;
+    height: 350px;
     gap: 60px;
+    align-items: center;
+    justify-content: center;
 }
 .Card_1{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
 }
 .Card_2{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
 }
 
@@ -372,50 +376,91 @@ body{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
 }
 .card_1head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_1txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
     font-weight: 500;
+}
+.img1{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
+
 }
 .card_2head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_2txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
     font-weight: 500;
 }
+.img2{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
+}
 .card_3head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_3txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
     font-weight: 500;
+}
+.img3{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
 }
 .SecondLine_Cards{
     display: flex;
-    height: 301px;
+    height: 350px;
     gap: 60px;
+    align-items: center;
+    justify-content: center;
 }
 .Card_4{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
     margin-top: 30px;
 }
@@ -423,6 +468,7 @@ body{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
     margin-top: 30px;
 }
@@ -430,39 +476,175 @@ body{
     box-shadow: black 4px 4px 0px;
     width: 393px;
     border: 2px solid black;
+    border-radius: 12px;
     background-color: #FFFFFF;
     margin-top: 30px;
 }
 .card_4head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_4txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
     font-weight: 500;
+}
+.img4{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
 }
 .card_5head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_5txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
     font-weight: 500;
 }
+.img5{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
+}
 .card_6head{
+    text-align: center;
     font-size: 28px;
     font-weight: 700;
     line-height: 130%;
-    padding: 50px 50px;
+    padding: 10px 50px;
 }
 .card_6txt{
+    text-align: center;
+    margin-bottom: 20px;
     padding: 5px 50px;
     font: 20px;
+    font-weight: 500;
+}
+.img6{
+    margin-top: 40px;
+    margin-left: 70px;
+    display: flex;
+    position: relative;
+    border-radius: 12px;
+    width: 250px;
+    height: 180px;
+}
+
+.buttonsdiv{
+    display: flex;
+    gap: 15px;
+    padding: 0px 250px;
+
+}
+.button1{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: #FFEFE5;
+}
+.button2{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.button3{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.button4{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.button4txt{
+    width: 108px;
+}
+.button5txt{
+    width: 120px;
+}
+.button6txt{
+    width: 154px;
+
+}
+.button5{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.button6{
+    padding: 14px 20px;
+    border-radius: 8px;
+    background-color: white;
+}
+.imagescont{
+    max-width: 1300px;
+    display: flex;
+    position: relative;
+    top: 140px;
+    left: 20px;
+    gap: 30px;
+}
+.imagecnt1{
+    width: 290px;
+}
+.imagecnt2{
+    width: 290px;
+}
+.imagecnt3{
+    width: 290px;
+}
+.imagecnt4{
+    width: 290px;
+}
+.textcont{
+    border: 2px solid black;
+    border-radius: 12px;
+    box-shadow: 6px 6px;
+    margin-top: 40px;
+    background-color: white;
+    max-width: 1300px;
+}
+.textheading{
+    padding: 150px 50px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.clasrooms{
+    font-size: 40px;
+    font-weight: 700;
+}
+.textheadingimg{
+    display: flex;
+    gap: 20px;
+}
+.texttxt{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.well{
+    text-decoration-color: #4C4C4D;
+    font-size: 22px;
     font-weight: 500;
 }
